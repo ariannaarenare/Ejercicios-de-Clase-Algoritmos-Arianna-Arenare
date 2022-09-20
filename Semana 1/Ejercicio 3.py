@@ -5,4 +5,4 @@ profit = year1 * 0.04
 year2 = year1 + profit
 profit = year2 * 0.04
 year3 = year2 + profit
-print(f"In first year you will earn{round{year1}}")
+print(f"In first year you will earn (year1)")
