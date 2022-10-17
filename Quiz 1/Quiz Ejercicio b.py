@@ -60,10 +60,11 @@ def main():
     
         if opciones == 1:
             for tipos_de_juego, categorías  in juegos.items():
+                print(tipos_de_juego)
                 for juego in categorías:
-                    id = juegos.get("id")
-                    juego_name = juegos.get("name")
-                    price = juegos.get ("price")
+                    id = juego.get("id")
+                    juego_name = juego.get("name")
+                    price = juego.get ("price")
                     print (f"id: {id}, name; {juego_name} , price: {price}")
                 if price == 0:
                     print ("Su juego es gratis")
