@@ -1,4 +1,4 @@
-#Números compuesto
+#Números compuestos
 number = input("Please enter a number: ")
 if number.isnumeric():
     number = int (number)
